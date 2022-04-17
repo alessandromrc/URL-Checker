@@ -28,7 +28,7 @@ export default function handler(req, res) {
 
     const options = {
       method: "post",
-      url: `https://safebrowsing.googleapis.com/v4/threatMatches:find?key=${TOKEN}`,
+      url: `https://safebrowsing.googleapis.com/v4/threatMatches:find?key=${Token}`,
       data: json,
     };
 

@@ -1,0 +1,43 @@
+.button {
+  color: white;
+}
+
+.title {
+  color: black;
+  font-size: 10rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  color: white;
+}
+
+.disclaimer {
+  font-size: 1.5rem;
+  color: black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.container {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    margin-top: -4rem;
+    color: black;
+    font-size: 4rem;
+  }
+  .subtitle {
+    font-size: 2rem;
+    color: white;
+  }
+  .disclaimer {
+    font-size: 1rem;
+    color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

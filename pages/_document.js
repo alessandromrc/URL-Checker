@@ -12,7 +12,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html language="en">
+      <Html lang="en">
         <Head>{CssBaseline.flush()}</Head>
         <body>
           <Main />

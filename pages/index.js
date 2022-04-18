@@ -170,7 +170,9 @@ export default function Home() {
         </Text>
         <Spacer />
         <Input
+          aria-label="URL Input"
           value={value}
+          aria-required="true"
           onChange={(e) => {
             setValue(e.currentTarget.value);
           }}
@@ -182,7 +184,7 @@ export default function Home() {
           contentRightStyling={false}
           placeholder="Type your URL..."
           contentRight={
-            <SendButton onClick={Request}>
+            <SendButton onClick={Request} aria-label="URL Input Button">
               <SendIcon />
             </SendButton>
           }
@@ -203,5 +205,6 @@ export default function Home() {
         </div>
       </Container>
     </DocumentMeta>
+
   );
 }

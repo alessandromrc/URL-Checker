@@ -15,7 +15,7 @@
     "next": "12.1.5",
     "next-seo": "^5.4.0",
     "next-themes": "^0.1.1",
-    "react": "18.0.0",
+    "react": "18.1.0",
     "react-document-meta": "^3.0.0-beta.2",
     "react-dom": "^18.0.0",
     "sitemap": "^7.1.1"
